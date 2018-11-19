@@ -16,8 +16,9 @@ public Money calculatePay(Employee e) throws InvalidEmployeeType {
    throw new InvalidEmployeeType(e.type);
  }
 }
-
+```
 ### After
+```Java
 public abstract class Employee {
  public abstract public abstract public abstract
  boolean isPayday();
