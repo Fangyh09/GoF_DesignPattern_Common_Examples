@@ -1,7 +1,8 @@
 # GoF_DesignPattern_Examples
 Examples for design pattern
 
-##
+## 1. Factory
+### Before
 ```Java
 public Money calculatePay(Employee e) throws InvalidEmployeeType {
  switch (e.type) {
@@ -16,6 +17,7 @@ public Money calculatePay(Employee e) throws InvalidEmployeeType {
  }
 }
 
+### After
 public abstract class Employee {
  public abstract public abstract public abstract
  boolean isPayday();
