@@ -1,4 +1,4 @@
-# GoF_DesignPattern_Examples
+# GoF_DesignPattern_Common_Examples
 Examples for design pattern
 
 ## 1. Factory
